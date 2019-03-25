@@ -8,22 +8,22 @@
     <name>IT Live Project Parent pom.xml</name>
 
     <properties>
-        <plugin-source.version>3.0.0</plugin-source.version>
-        <plugin-jar.version>3.0.2</plugin-jar.version>
-        <plugin-war.version>3.2.0</plugin-war.version>
+        <plugin-source.version>3.0.1</plugin-source.version>
+        <plugin-jar.version>3.1.1</plugin-jar.version>
+        <plugin-war.version>3.2.2</plugin-war.version>
         <plugin-ejb.version>3.0.0</plugin-ejb.version>
         <plugin-ear.version>3.0.0</plugin-ear.version>
         <plugin-compiler.version>3.8.0</plugin-compiler.version>
         <plugin-compiler.error_prone.version>2.1.2</plugin-compiler.error_prone.version>
 		<plugin-compiler.plexus_error_prone.version>2.7</plugin-compiler.plexus_error_prone.version>
-		<plugin-resources.version>3.0.2</plugin-resources.version>
+		<plugin-resources.version>3.1.0</plugin-resources.version>
 		<plugin-enforcer.version>3.0.0-M2</plugin-enforcer.version>
 		<plugin-deploy.version>2.8.2</plugin-deploy.version>
         <plugin-build-helper.version>3.0.0</plugin-build-helper.version>
 
 		<!-- Reporting plugin -->
         <plugin-surefire.version>2.21.0</plugin-surefire.version>
-        <plugin-site.version>3.7</plugin-site.version>
+        <plugin-site.version>3.7.1</plugin-site.version>
         <plugin-checkstyle.version>3.0.0</plugin-checkstyle.version>
         <plugin.surefire-report.version>2.21.0</plugin.surefire-report.version>
         <plugin-findbugs.version>3.0.4</plugin-findbugs.version>
@@ -43,7 +43,8 @@
     	<surefire.aggregate>true</surefire.aggregate>
         <doclint>none</doclint>
         <java-jre.version>1.8</java-jre.version>
-        <plugin-jacoco.version>0.8.2</plugin-jacoco.version>
+        <plugin-jacoco.version>0.8.3</plugin-jacoco.version>
+    	<argLine>-Xmx128m</argLine> <!-- for jacoco -->
     	
     	<!-- Libraries version -->
         <primefaces.version>6.2</primefaces.version>
